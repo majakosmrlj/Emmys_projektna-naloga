@@ -1,7 +1,8 @@
 
+
 import re
 
-with open("emmys.html") as dat:
+with open("emmys.html", encoding ="utf8") as dat:
     besedilo = dat.read()
     niz = r'<h5>(?P<nominacija>.+?)</h5>'
     nominacije = []
