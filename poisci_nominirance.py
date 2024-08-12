@@ -8,4 +8,4 @@ with open("emmys.html") as dat:
     for najdba in re.finditer(niz, besedilo):
         nominacije.append(najdba["nominacija"])
         
-    print(nominacije, len(nominacije))
+print(nominacije, len(nominacije))
